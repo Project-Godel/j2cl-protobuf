@@ -61,6 +61,7 @@ closure_js_library(
         ":mapview",
         "//third_party:closure_math_long",
     ],
+    suppress = ["JSC_UNKNOWN_EXPR_TYPE"]
 )
 
 closure_js_library(
@@ -157,4 +158,5 @@ closure_js_library(
         "//third_party:closure_math_long",
         "//third_party:closure_reflect",
     ],
+    suppress = ["JSC_UNKNOWN_EXPR_TYPE"]
 )

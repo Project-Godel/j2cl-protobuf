@@ -14,7 +14,7 @@
 
 /**
  * @fileoverview Proto internal runtime checks.
- * @suppress {lateProvide}
+ * @suppress {lateProvide|reportUnknownTypes}
  */
 goog.module('proto.im.internal.internalChecks');
 

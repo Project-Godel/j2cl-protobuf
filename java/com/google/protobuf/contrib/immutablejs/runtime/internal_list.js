@@ -12,6 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+/**
+ * @fileoverview
+ * @suppress {reportUnknownTypes}
+ */
 goog.module('proto.im.internal.InternalList');
 
 const InternalMutableListView = goog.require('proto.im.internal.InternalMutableListView');

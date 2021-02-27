@@ -14,6 +14,7 @@
 
 /**
  * @fileoverview A list representation for repeated fields of protos.
+ * @suppress {reportUnknownTypes}
  */
 goog.module('proto.im.ListView');
 const {checkIndex, isCheckIndex} = goog.require('proto.im.internal.internalChecks');
@@ -99,7 +100,7 @@ class ArrayListView {
    * @param {!Array<T>} array
    */
   constructor(array) {
-    /** @private {!Array<T>} */
+    /** @private @const {!Array<T>} */
     this.array_ = array;
   }
 

@@ -18,6 +18,7 @@ def create_js_provider(ctx, srcs = [], deps = [], runtime_deps = [], exports = [
         deps = deps + runtime_deps,
         exports = exports,
         convention = "GOOGLE",
+        suppress = ["JSC_EXTRA_REQUIRE_WARNING"]
     )
 
 def create_js_lib_struct(js_provider, extra_providers = []):

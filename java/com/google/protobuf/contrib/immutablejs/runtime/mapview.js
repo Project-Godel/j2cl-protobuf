@@ -14,6 +14,7 @@
 
 /**
  * @fileoverview A map representation for map fields of protos.
+ * @suppress {reportUnknownTypes}
  */
 goog.module('proto.im.MapView');
 

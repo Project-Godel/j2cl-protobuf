@@ -24,6 +24,8 @@
  * We do these runtime checks so that developers can find quirks in their protos
  * earlier. Think of a proto on the server having weird incompatible values vs.
  * the client side throwing an exception.
+ *
+ * @suppress {reportUnknownTypes}
  */
 goog.module('proto.im.internal.FieldAccessor');
 

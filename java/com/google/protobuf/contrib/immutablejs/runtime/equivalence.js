@@ -14,6 +14,8 @@
 
 /**
  * @fileoverview An equivalence implementation for immutable protos.
+ *
+ * @suppress {reportUnknownTypes}
  */
 goog.module('proto.im.internal.Equivalence');
 
